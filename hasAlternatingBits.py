@@ -1,4 +1,4 @@
-# https://leetcode.com/problems/binary-number-with-alternating-bits/submissions/
+# https://leetcode.com/problems/binary-number-with-alternating-bits/
 
 class Solution:
     def hasAlternatingBits(self, n: int) -> bool:

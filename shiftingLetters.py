@@ -1,4 +1,4 @@
-# https://leetcode.com/problems/shifting-letters/submissions/
+# https://leetcode.com/problems/shifting-letters/
 class Solution:
     base = ord('a')
 
