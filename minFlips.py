@@ -7,8 +7,8 @@ class Solution:
         count = 0
         cur = revstr[0]
         for i in range(len(revstr)):
-            if revstr[i]!=cur:
-                count+=1
+            if revstr[i] != cur:
+                count += 1
                 cur = revstr[i]
-        count+=1
+        count += 1
         return count
