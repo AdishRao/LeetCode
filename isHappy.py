@@ -11,13 +11,3 @@ class Solution:
             else:
                 nums[n] = 1
         return True
-
-#############################
-import functools
-
-class Solution:
-    def addDigits(self, num: int) -> int:
-        while(num>=10):
-            num = int(functools.reduce(lambda a,b : str(int(a)+int(b)), str(num)))
-            
-        return num
